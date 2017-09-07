@@ -1,0 +1,59 @@
+﻿.mGrid {  
+    width: 100%;  
+    background-color: #fff;  
+    margin: 5px 0 10px 0;  
+    border: solid 1px #BF0F45;  
+    border-collapse: collapse;  
+}  
+  
+.mGrid td {  
+    padding: 2px;  
+    border: solid 1px #c1c1c1;
+}  
+  
+.mGrid th {  
+    padding: 4px 2px;  
+    color: #fff;  
+    background: #BF0F45 repeat-x top;  
+    border-left: solid 1px #525252;  
+    font-size: 0.9em;  
+}  
+  
+.mGrid .alt {  
+    background: #E6E6E6 repeat-x top;  
+}  
+  
+.mGrid .pgr {  
+    background: #BF0F45 repeat-x top;  
+}  
+  
+.mGrid .pgr table {  
+    margin: 5px 0;  
+}  
+  
+.mGrid .pgr td {  
+    border-width: 0;  
+    padding: 0 6px;  
+    border-left: solid 1px #666;  
+    font-weight: bold;  
+    color: #fff;  
+    line-height: 12px;  
+}  
+  
+.mGrid .pgr a {  
+    color: #666;  
+    text-decoration: none;  
+}  
+  
+.mGrid .pgr a:hover {  
+    color: #000;  
+    text-decoration: none;  
+} 
+
+.estiloBotones{
+    background-color:#BF0F45;
+    color:#fff;
+    border:none;
+    height:30px;
+    font-weight:bold;
+}

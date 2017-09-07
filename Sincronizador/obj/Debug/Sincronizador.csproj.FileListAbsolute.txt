@@ -1,0 +1,5 @@
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\Sincronizador\bin\Debug\Sincronizador.exe.config
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\Sincronizador\bin\Debug\Sincronizador.exe
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\Sincronizador\bin\Debug\Sincronizador.pdb
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\Sincronizador\obj\Debug\Sincronizador.exe
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\Sincronizador\obj\Debug\Sincronizador.pdb

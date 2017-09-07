@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agregador", "Agregador\Agregador.csproj", "{0692679D-5948-4A7A-BB78-FD5F07F8ABA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{AFBF68EB-194E-43B9-AE73-D5312E5CE220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FF1C625D-068E-4DF1-96C7-F8E4D43FABA5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{30B76FD6-25B7-4E24-910A-18A80384181B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Agregador.json = PublishScripts\Templates\Agregador.json
+		PublishScripts\Templates\Agregador.param.dev.json = PublishScripts\Templates\Agregador.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sincronizador", "Sincronizador\Sincronizador.csproj", "{CF6CA169-30E0-4489-B2AD-CB25DFB12928}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0692679D-5948-4A7A-BB78-FD5F07F8ABA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0692679D-5948-4A7A-BB78-FD5F07F8ABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0692679D-5948-4A7A-BB78-FD5F07F8ABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0692679D-5948-4A7A-BB78-FD5F07F8ABA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6CA169-30E0-4489-B2AD-CB25DFB12928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6CA169-30E0-4489-B2AD-CB25DFB12928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6CA169-30E0-4489-B2AD-CB25DFB12928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6CA169-30E0-4489-B2AD-CB25DFB12928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF1C625D-068E-4DF1-96C7-F8E4D43FABA5} = {AFBF68EB-194E-43B9-AE73-D5312E5CE220}
+		{30B76FD6-25B7-4E24-910A-18A80384181B} = {AFBF68EB-194E-43B9-AE73-D5312E5CE220}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://misproyectosccmp.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Agregador\\Agregador.csproj
+		SccProjectName1 = Agregador
+		SccLocalPath1 = Agregador
+		SccProjectUniqueName2 = Sincronizador\\Sincronizador.csproj
+		SccProjectName2 = Sincronizador
+		SccLocalPath2 = Sincronizador
+	EndGlobalSection
+EndGlobal

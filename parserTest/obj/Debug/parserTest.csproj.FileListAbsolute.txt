@@ -1,0 +1,5 @@
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\parserTest\bin\Debug\parserTest.exe.config
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\parserTest\bin\Debug\parserTest.exe
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\parserTest\bin\Debug\parserTest.pdb
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\parserTest\obj\Debug\parserTest.exe
+C:\Users\Cristian\documents\visual studio 2015\Projects\Agregador\parserTest\obj\Debug\parserTest.pdb
